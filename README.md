@@ -1,1 +1,6 @@
-# PostProcess-Camera-Changes
+I made some changes this time around in regards to post processing and camera adjustments. For the post processing changes, I adjusted the colors for the camera, adding a saturated deep blue, as well as a small
+vingette surrounding the screen. These are meant to emphasize the darkness of space, especially since the player is alone wandering the void fighting robots. To offset this, I implemented some bloom to the game, brightening up key enemies, items, and obstacles on the map. It enhances the sci-fi asthetic while also increasing the threat-levels of the drones. I wanted to try to add some grain effects to the camera, but due to the dark environment created from the other effects the grain didn't show itself too much. It would've been a waste of resources without much payoff. 
+One interesting problem that occured was with the increase of bloom to the game; the sun became too bright. It was significantly hindering my enjoyment as it was blinding as well as disrupting the asthetic that I
+was going for. Luckily, the solution came from a singular camera adjustment. By reducing the far clipping range, the "sun" would dissapear during gameplay. This one change to the camera was all I implemented, but
+it made all the difference in not only removing the sun, but also increasing immersion without the overbearing ball of light. Overall, although these changes were small, they provided a significant tonal shift
+that I was missing in my microgame, enhancing the playing experience.
